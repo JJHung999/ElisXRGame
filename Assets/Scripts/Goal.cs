@@ -11,9 +11,9 @@ public class Goal
     //Describes the goal, gets the goal from something, and then set it on the mission panel
     public bool Completed { get; set;} 
     //Checks if that goal was complete
-    public int CurrentAmount { get; set;} 
+    public float CurrentAmount { get; set;} 
     //How much of our goal that we currently did
-    public int RequiredAmount { get; set;} 
+    public float RequiredAmount { get; set;} 
     //How much of our goal that we need to do
 
     public virtual void Init()
