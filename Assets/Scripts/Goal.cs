@@ -38,4 +38,5 @@ public class Goal
     {
         Completed = true;
     }
+
 }

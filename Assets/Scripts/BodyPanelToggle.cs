@@ -16,4 +16,9 @@ public class BodyPanel : MonoBehaviour
             RiggedBodyViewer.SetActive(!isActive);
         }
     }
+
+    void Awake ()
+    {
+        DontDestroyOnLoad (this.gameObject);
+    }
 }

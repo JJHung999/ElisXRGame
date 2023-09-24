@@ -16,4 +16,8 @@ public class GoalsPanel : MonoBehaviour
             MissionPanel.SetActive(!isActive);
         }
     }
+    void Awake ()
+    {
+        DontDestroyOnLoad (this.gameObject);
+    }
 }
