@@ -117,8 +117,5 @@ public class ChangeCameraDisplay : MonoBehaviour
             camera6.SetActive(!isActive);
         }
     }
-    void Awake ()
-    {
-        DontDestroyOnLoad (this.gameObject);
-    }
+
 }

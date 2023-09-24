@@ -16,8 +16,4 @@ public class ChangeOutfitSceneScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-    void Awake ()
-    {
-        DontDestroyOnLoad (this.gameObject);
-    }
 }

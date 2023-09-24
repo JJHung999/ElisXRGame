@@ -18,8 +18,5 @@ public class UIFadeScript : MonoBehaviour
     {
         myUIGroup.alpha = 0;
     }
-    void Awake ()
-    {
-        DontDestroyOnLoad (this.gameObject);
-    }
+
 }

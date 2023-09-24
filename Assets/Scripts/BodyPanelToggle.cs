@@ -17,8 +17,4 @@ public class BodyPanel : MonoBehaviour
         }
     }
 
-    void Awake ()
-    {
-        DontDestroyOnLoad (this.gameObject);
-    }
 }

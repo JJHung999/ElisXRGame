@@ -115,8 +115,4 @@ public class ChildrenButtonChange : MonoBehaviour, IPointerEnterHandler, IPointe
     foreach (Image i in images) i.color = color;
   }
 
-  void Awake ()
-  {
-    DontDestroyOnLoad (this.gameObject);
-  }
 }

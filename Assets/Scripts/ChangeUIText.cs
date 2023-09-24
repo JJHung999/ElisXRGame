@@ -36,8 +36,4 @@ public class ChangeUIText : MonoBehaviour
         textmeshpro_objective_text.text = objective_a;
         textmeshpro_rep_text.text = rep.ToString();
     }
-    void Awake ()
-    {
-        DontDestroyOnLoad (this.gameObject);
-    }
 }

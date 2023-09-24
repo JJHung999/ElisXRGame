@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3195338}
   m_Layer: 0
   m_Name: CharacterCamera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,7 +556,6 @@ GameObject:
   - component: {fileID: 184432308}
   - component: {fileID: 184432307}
   - component: {fileID: 184432311}
-  - component: {fileID: 184432312}
   m_Layer: 5
   m_Name: Character Creation Canvas
   m_TagString: Untagged
@@ -667,32 +666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63fbe53caab4bac4da1cf0766a92474d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &184432312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184432306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b925351cad122049ad8d6e4ec0a3a8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera1: {fileID: 3195337}
-  camera2: {fileID: 1673312049}
-  camera3: {fileID: 2052912818}
-  camera4: {fileID: 196016564}
-  camera5: {fileID: 782675253}
-  camera6: {fileID: 193089407}
-  TypeB: {fileID: 720241634}
-  OutfitBtn1: {fileID: 2025765238}
-  OutfitBtn2: {fileID: 62337838}
-  OutfitBtn3: {fileID: 1999901026}
-  OutfitBtn4: {fileID: 553554000}
-  OutfitBtn5: {fileID: 1365931763}
-  TypeA: {fileID: 843160837}
-  OutfitBtn6: {fileID: 1365931763}
 --- !u!1 &193089407
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,11 +678,11 @@ GameObject:
   - component: {fileID: 193089408}
   m_Layer: 0
   m_Name: CharacterCamera (5)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &193089408
 Camera:
   m_ObjectHideFlags: 0
@@ -752,7 +725,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 2572f7248328cb2448c6145d5b03f1f9, type: 2}
-  m_TargetDisplay: 5
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -788,11 +761,11 @@ GameObject:
   - component: {fileID: 196016565}
   m_Layer: 0
   m_Name: CharacterCamera (3)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &196016565
 Camera:
   m_ObjectHideFlags: 0
@@ -835,7 +808,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 2572f7248328cb2448c6145d5b03f1f9, type: 2}
-  m_TargetDisplay: 3
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -1462,11 +1435,11 @@ GameObject:
   - component: {fileID: 782675254}
   m_Layer: 0
   m_Name: CharacterCamera (4)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &782675254
 Camera:
   m_ObjectHideFlags: 0
@@ -1509,7 +1482,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 2572f7248328cb2448c6145d5b03f1f9, type: 2}
-  m_TargetDisplay: 4
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -3543,11 +3516,11 @@ GameObject:
   - component: {fileID: 1673312050}
   m_Layer: 0
   m_Name: CharacterCamera (1)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &1673312050
 Camera:
   m_ObjectHideFlags: 0
@@ -3590,7 +3563,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 2572f7248328cb2448c6145d5b03f1f9, type: 2}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -4490,11 +4463,11 @@ GameObject:
   - component: {fileID: 2052912819}
   m_Layer: 0
   m_Name: CharacterCamera (2)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &2052912819
 Camera:
   m_ObjectHideFlags: 0
@@ -4537,7 +4510,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 2572f7248328cb2448c6145d5b03f1f9, type: 2}
-  m_TargetDisplay: 2
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
