@@ -762,7 +762,9 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: AVATURN
+    Standalone: IN3D_SDK_DEPENDENCIES_RESOLVED
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1

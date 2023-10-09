@@ -1,5 +1,32 @@
 {
   "dependencies": {
+    "com.atteneder.gltfast": {
+      "version": "https://github.com/avaturn/glTFast.git#v5.0.5",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6"
+      },
+      "hash": "26bab1a41b484e2a04ae6f09f4ab743774e6c421"
+    },
+    "com.avaturn.core": {
+      "version": "https://github.com/avaturn/avaturn-unity-sdk-core.git#v0.3.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2639d41fabab086f4de14b88d474ff785ddaab38"
+    },
+    "com.avaturn.installer": {
+      "version": "file:com.avaturn.installer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.8",
       "depth": 1,
@@ -111,6 +138,13 @@
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
