@@ -13,11 +13,11 @@
       "hash": "26bab1a41b484e2a04ae6f09f4ab743774e6c421"
     },
     "com.avaturn.core": {
-      "version": "https://github.com/avaturn/avaturn-unity-sdk-core.git#v0.3.0",
+      "version": "https://github.com/avaturn/avaturn-unity-sdk-core.git#v0.3.2",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "2639d41fabab086f4de14b88d474ff785ddaab38"
+      "hash": "59d69e0f24a9896c1d5fdb67dbbda482380471e0"
     },
     "com.avaturn.installer": {
       "version": "file:com.avaturn.installer",
@@ -119,7 +119,7 @@
     },
     "com.unity.inputsystem": {
       "version": "1.6.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -265,7 +265,7 @@
     },
     "com.unity.xr.arcore": {
       "version": "5.0.7",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.arfoundation": "5.0.7",
@@ -295,7 +295,7 @@
     },
     "com.unity.xr.arkit": {
       "version": "5.0.7",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
@@ -307,7 +307,7 @@
     },
     "com.unity.xr.core-utils": {
       "version": "2.2.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.xr": "1.0.0"
@@ -363,7 +363,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.8.2",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
