@@ -3227,7 +3227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 0}
+  m_PlanePrefab: {fileID: 440648998}
   m_DetectionMode: -1
 --- !u!114 &897389690
 MonoBehaviour:
@@ -3244,7 +3244,7 @@ MonoBehaviour:
   m_Camera: {fileID: 372449255}
   m_OriginBaseGameObject: {fileID: 897389688}
   m_CameraFloorOffsetObject: {fileID: 316510825}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 1.1176
 --- !u!4 &897389691
 Transform:
